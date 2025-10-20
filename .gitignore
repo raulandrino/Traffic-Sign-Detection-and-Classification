@@ -1,0 +1,96 @@
+# === AI Text Detection Project ===
+# Ignore patterns for Python, Jupyter, and ML artifacts
+# Author: Raúl Andrino
+# Universidad Politécnica de Madrid
+
+# -------------------------
+# Python & Virtual Env
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dll
+*.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+.env/
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_save
+
+# -------------------------
+# Model Files
+# -------------------------
+*.keras
+*.h5
+*.pkl
+*.ckpt
+*.joblib
+*.tflite
+*.onnx
+
+# -------------------------
+# Datasets and Generated Files
+# -------------------------
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.zip
+*.gz
+*.tar
+*.npz
+*.npy
+data/
+datasets/
+logs/
+results/
+
+# -------------------------
+# System & Editor Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.bak
+*.swp
+*.tmp
+
+# -------------------------
+# TensorBoard & Training Artifacts
+# -------------------------
+tensorboard/
+events.out.tfevents.*
+checkpoints/
+runs/
+
+# -------------------------
+# PDF, Word, and Docs (keep in /docs only)
+# -------------------------
+*.pdf
+*.docx
+!docs/*.pdf
+!docs/*.docx
+
+# -------------------------
+# VSCode & IDE Config
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# Git LFS
+# -------------------------
+.gitattributes
